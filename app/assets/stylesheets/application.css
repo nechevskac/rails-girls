@@ -13,7 +13,20 @@
  *= require_tree .
  *= require_self
  */
-body { padding-top: 100px;}
+body { padding-top: 30px;}
 footer {margin-top: 100px;}
 table, td, th {vertical-align: middle; border: none;}
 th { border-bottom: 1px solid #DDD;}
+.custom-navbar {
+    background-color: #d3360b;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: orangered;
+}
+.navbar-collapse li a:hover {
+    color: #d3360b;
+    background-color: white;
+}
